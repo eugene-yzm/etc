@@ -19,10 +19,4 @@ http.use_ssl = true
 request = Net::HTTP::Get.new(uri)
 response = http.request(request)
 
-puts gc_array = JSON.parse(response.body)
-
-# while true
-# 	puts "Enter value: "
-# 	val = gets.chomp
-# 	puts gc_array[val]
-# end
+gc_array = JSON.parse(response.body)
