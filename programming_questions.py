@@ -1,8 +1,5 @@
 import collections
 
-# you can use print for debugging purposes, e.g.
-# print "this is a debug message"
-
 def checkConnected(C,x):
     l = []
     for i,e in enumerate(C):
